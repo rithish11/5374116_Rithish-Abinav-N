@@ -1,0 +1,22 @@
+git config --global user.name "Rithish Abinav N"
+git config --global user.email "rithish1106@gmail.com"
+git clone https://github.com/rithish11/5374116_Rithish-Abinav-N.git
+git init
+git add .
+git status
+git commit -m "Initial Commit"
+git push
+git log
+
+git branch Dev
+git checkout Dev (OR) git checkout -b Dev
+git stash
+
+git branch -d Dev
+
+git merge
+git rebase
+
+git status
+git diff
+git commit -m "Feature added"
