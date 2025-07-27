@@ -1,6 +1,12 @@
 #include <iostream>
+using namespace std;
+
+int add(int x, int y) {
+    return x + y;
+}
+
 int main() {
     int a = 2, b = 3;
-    std::cout << (a + b) << std::endl;
+    cout << "Sum: " << add(a, b) << endl;
     return 0;
 }
